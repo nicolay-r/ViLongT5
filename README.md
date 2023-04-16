@@ -16,11 +16,11 @@ Multi-document Summarization Task]()**
 
 ## Pretrained Models
 **Vocabulary:**
-[LongViT5_vocab]()
+[ViLongT5_vocab]()
 
 Model        | Gin File Location                                                                  | Checkpoint Location|
 ------------ | ---------------------------------------------------------------------------------- | -------------------|
-ViT5-Large | [LongViT5_large.gin]() | [storage-path]() | [ViT5-Large-1024 (1.5M)](https://huggingface.co/VietAI/vit5-large)
+ViLongT5-Large | [ViLongT5_large.gin]() | [storage-path]() |
 
 ## Finetunning
 
@@ -29,13 +29,14 @@ ViT5-Large | [LongViT5_large.gin]() | [storage-path]() | [ViT5-Large-1024 (1.5M)
 
 ## Results
 
-> TODO. Image with the results.
+![image](https://user-images.githubusercontent.com/14871187/232292497-0f16fc97-1eac-49cb-b2b4-feb8629224db.png)
+
 
 ### Datasets
-- [NewsCorpus]()
-- [VMDS]()
-- [VNDS]()
-- [ViMS]()
+- [NewsCorpus](https://github.com/binhvq/news-corpus)
+- [VMDS](https://github.com/lupanh/VietnameseMDS)
+- [VNDS](https://github.com/ThanhChinhBK/vietnews)
+- [ViMS](https://github.com/CLC-HCMUS/ViMs-Dataset)
 
 ## Citation
 ```
