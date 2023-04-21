@@ -35,7 +35,6 @@ ViLongT5-Large | [ViLongT5_large.gin]() | [storage-path]() |
 ### Datasets
 - [NewsCorpus](https://github.com/binhvq/news-corpus)
 - [VMDS](https://github.com/lupanh/VietnameseMDS)
-- [VNDS](https://github.com/ThanhChinhBK/vietnews)
 - [ViMS](https://github.com/CLC-HCMUS/ViMs-Dataset)
 
 ## Citation
