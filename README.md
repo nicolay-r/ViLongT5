@@ -3,20 +3,20 @@
 
 A pretrained Transformer-based encoder-decoder model for the
 multi-document text-summarization
-problem in Vietnamese language. 
-With [LongT5](https://github.com/google/flaxformer) original architecture 
-implementation, 
+problem in Vietnamese language.
+With [LongT5](https://github.com/google/flaxformer) original architecture
+implementation,
 ViLongT5 is trained on a large NewsCorpus of news Vietnamese texts.
-We benchmark LongViT5 on multidocument text-summarization tasks, 
-Abstractive Text Summarization and Named Entity Recognition. 
-All the experiments are shown in our paper 
+We benchmark LongViT5 on multidocument text-summarization tasks,
+Abstractive Text Summarization and Named Entity Recognition.
+All the experiments are shown in our paper
 **[Pre-training LongT5 for Vietnamese Mass-Media
 Multi-document Summarization Task]()**
 
 
 ## Pretrained Models
 **Vocabulary:**
-[ViLongT5_vocab]()
+[ViLongT5_vocab](sentencepiece-model/vietnam.vocab)
 
 Model        | Gin File Location                                                                  | Checkpoint Location|
 ------------ | ---------------------------------------------------------------------------------- | -------------------|
