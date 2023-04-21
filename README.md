@@ -29,7 +29,7 @@ ViLongT5-Large | [ViLongT5_large.gin]() | [storage-path]() |
 
 ## Results
 
-![image](https://user-images.githubusercontent.com/14871187/232292497-0f16fc97-1eac-49cb-b2b4-feb8629224db.png)
+![image](https://user-images.githubusercontent.com/14871187/233701416-af11f6ff-40fd-4575-9727-fbb932cc76ed.png)
 
 
 ### Datasets
