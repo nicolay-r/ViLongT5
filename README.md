@@ -42,7 +42,7 @@ ViLongT5-Large | [ViLongT5_large.gin]() | [storage-path]() |
 ```
 @inproceedings{rusnachenko2023pretraining,
     title = "Pre-training {LongT5} for Vietnamese Mass-Media Multi-document Summarization Task",
-    author = "Nicolay, Rusnachenko and The Anh, Le and Ngoc Diep, Nguyen",
+    author = "Rusnachenko, Nicolay and Le, The Anh and Nguyen, Ngoc Diep",
     booktitle = "Proceedings of Artificial Intelligence and Natural Language",
     year = "2023"
 }
