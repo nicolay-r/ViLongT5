@@ -24,7 +24,7 @@ Multi-document Summarization Task]()**
 
 Model        | Gin File Location                                                                  | Checkpoint Location|
 ------------ | ---------------------------------------------------------------------------------- | -------------------|
-ViLongT5-Large | [ViLongT5_large.gin](https://www.dropbox.com/s/nu3hgkz36zra3qq/config.gin?dl=1) | [storage-path](https://www.dropbox.com/s/gl4vxpie7s3liqm/longt5-finetuned-vims-vmds-vlsp-large.tar.gz?dl=1) |
+ViLongT5-Large | [ViLongT5_large.gin](https://www.dropbox.com/s/nu3hgkz36zra3qq/config.gin?dl=1) | [ViLongt5-finetuned-large.tar.gz](https://www.dropbox.com/s/gl4vxpie7s3liqm/longt5-finetuned-vims-vmds-vlsp-large.tar.gz?dl=1) |
 
 ## Finetunning
 
