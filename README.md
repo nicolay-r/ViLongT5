@@ -16,7 +16,7 @@ Multi-document Summarization Task]()**
 
 ## Pretrained Models
 **Vocabulary:**
-[ViLongT5_vocab](sentencepiece-model/vietnam.vocab) / [training-script](sentencepiece/readme.md)
+[ViLongT5_vocab](sentencepiece/model/vietnam.vocab) / [training-script](sentencepiece/readme.md)
 
 Model        | Gin File Location                                                                  | Checkpoint Location|
 ------------ | ---------------------------------------------------------------------------------- | -------------------|
