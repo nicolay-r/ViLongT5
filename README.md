@@ -1,13 +1,17 @@
 # ViLongT5
 [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-A pretrained Transformer-based encoder-decoder model for the
+A pretrained [Transformer-based encoder-decoder model](https://arxiv.org/pdf/2112.07916.pdf) for the
 multi-document text-summarization
-problem in Vietnamese language.
-With [LongT5](https://github.com/google/flaxformer) original architecture
-implementation,
-ViLongT5 is trained on a large NewsCorpus of news Vietnamese texts.
-We benchmark LongViT5 on multidocument text-summarization tasks,
+task in Vietnamese language.
+The code represents a non-framework implementation, which 
+combines 
+[flaxformer](https://github.com/google/flaxformer), 
+[t5x](https://github.com/google-research/t5x)
+and purely based on [JAX library](https://github.com/google/jax).
+
+`ViLongT5` is trained on a large NewsCorpus of news Vietnamese texts.
+We benchmark `ViLongT5` on multidocument text-summarization tasks,
 Abstractive Text Summarization and Named Entity Recognition.
 All the experiments are shown in our paper
 **[Pre-training LongT5 for Vietnamese Mass-Media
