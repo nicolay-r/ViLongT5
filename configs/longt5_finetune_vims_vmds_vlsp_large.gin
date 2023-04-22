@@ -1,0 +1,17 @@
+# Considering a pretrained model.
+include 't5x/configs/runs/finetune.gin'
+include 'longt5_1_1_global_large.gin'
+
+TRAIN_STEPS = 1410000
+EVAL_PERIOD = 10000
+
+# Setup parameters for the fine-tunning.
+BATCH_SIZE = 8
+DROPOUT_RATE = 0.0
+MIXTURE_OR_TASK_NAME = "vims_vmds_vlsp_large"
+MIXTURE_OR_TASK_MODULE = 'tasks.vims_vmds_vlsp'
+INITIAL_CHECKPOINT_PATH = "/tmp/longt5-pretrained-newscorp-large/checkpoint_1400000"
+LOSS_NORMALIZING_FACTOR = 233472
+
+# As a results we will have a model, finetuned with the ViMs and VMDS data.
+MODEL_DIR = "/tmp/longt5-finetuned-vims-vmds-vlsp-large/"

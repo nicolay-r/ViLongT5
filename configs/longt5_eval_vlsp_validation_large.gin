@@ -1,0 +1,11 @@
+include 't5x/configs/runs/eval.gin'
+include 'longt5_1_1_global_large.gin'
+
+# Setup BATCH_SIZE as follows:
+BATCH_SIZE = 8
+utils.DatasetConfig.batch_size = 8
+
+MIXTURE_OR_TASK_NAME = "vlsp_valid_large"
+MIXTURE_OR_TASK_MODULE = 'tasks.vlsp'
+CHECKPOINT_PATH = "/tmp/longt5-finetuned-vims-vmds-vlsp-large/checkpoint_1410000/checkpoint"
+EVAL_OUTPUT_DIR = "./eval-vlsp-valid-large/"

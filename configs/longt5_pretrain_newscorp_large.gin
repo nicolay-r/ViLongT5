@@ -1,0 +1,13 @@
+include 't5x/configs/runs/pretrain.gin'
+include 'longt5_1_1_global_large.gin'
+
+BATCH_SIZE = 8
+TRAIN_STEPS = 1300000
+MIXTURE_OR_TASK_NAME = "newscorp_large"
+MIXTURE_OR_TASK_MODULE = 'tasks.news_corp'
+MODEL_DIR = "/tmp/longt5-pretrained-newscorp-large"
+
+from t5x import utils
+train.eval_period = 25000
+utils.SaveCheckpointConfig:
+  period = 25000
