@@ -10,7 +10,7 @@ combines
 [t5x](https://github.com/google-research/t5x)
 and purely based on [JAX library](https://github.com/google/jax).
 
-`ViLongT5` is trained on a large NewsCorpus of news Vietnamese texts.
+`ViLongT5` is trained on a large NewsCorpus of Vietnamese news texts.
 We benchmark `ViLongT5` on multidocument text-summarization tasks,
 Abstractive Text Summarization and Named Entity Recognition.
 All the experiments are shown in our paper
