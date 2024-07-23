@@ -1,4 +1,5 @@
 # ViLongT5
+![](https://img.shields.io/badge/Python-3.8+-lightgreen.svg)
 [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 A pretrained [Transformer-based encoder-decoder model](https://arxiv.org/pdf/2112.07916.pdf) for the
@@ -18,7 +19,7 @@ All the experiments are shown in our paper
 Multi-document Summarization Task](https://nicolay-r.github.io/website/data/preprint-AINL_2023_longt5_summarization.pdf)**
 
 
-## Pretrained Models
+# Pretrained Models
 **Vocabulary:**
 [ViLongT5_vocab](sentencepiece/model/vietnam.vocab) / [training-script](sentencepiece/readme.md)
 
@@ -26,23 +27,22 @@ Model        | Gin File Location                                                
 ------------ | ---------------------------------------------------------------------------------- | -------------------|
 ViLongT5-Large | [ViLongT5_large.gin](https://www.dropbox.com/s/nu3hgkz36zra3qq/config.gin?dl=1) | [ViLongt5-finetuned-large.tar.gz](https://www.dropbox.com/s/gl4vxpie7s3liqm/longt5-finetuned-vims-vmds-vlsp-large.tar.gz?dl=1) |
 
-## Finetunning
-
-📄 Example with Flaxformer: 
+📄 Example scripts based on `Flaxformer` library for model: 
     [finetunning](usage/finetunning.md) / 
     [inferring](usage/inferring.md) / 
     [evaluating](usage/evaluating.md)
 
-## Results
+### Results
 
 ![image](https://user-images.githubusercontent.com/14871187/233701416-af11f6ff-40fd-4575-9727-fbb932cc76ed.png)
 
-## Datasets
+### Datasets
+List of datasets utilized in experiments conduction:
 - [NewsCorpus](https://github.com/binhvq/news-corpus)
 - [VMDS](https://github.com/lupanh/VietnameseMDS)
 - [ViMS](https://github.com/CLC-HCMUS/ViMs-Dataset)
 
-## Installation
+# Installation
 
 > **NOTE:** considering `GPU` as a computational device.
 This project has been tested under the following [configuration](misc/nvidia-smi.txt)
@@ -55,7 +55,7 @@ This project has been tested under the following [configuration](misc/nvidia-smi
 * CuDNN toolkit `cudnn`
     * [Installation details](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 
-### Local
+### Local Installation
 
 * Initialize virtual environment and install project dependencies:
 ```
@@ -64,11 +64,11 @@ pip install -r dependencies.txt
 ```
 * [Re-install JAX with the related support of the GPU](usage/jax-gpu-support-tutorial.md).
 
-### Kaggle 
+### Kaggle Installation
 
-For testing under Kaggle, [there is a separted tutorial](usage/kaggle.md).
+For testing under [Kaggle](https://www.kaggle.com/), [there is a separted tutorial](usage/kaggle.md).
 
-## Fine-tuning
+# Fine-tuning
 
 * [Fine-tunning (`t5x` tutorial)](usage/finetunning.md)
 
@@ -77,10 +77,10 @@ We finetunning the model based on training part of the `vims+vmds+vlsp` training
 python -m t5x.train --gin_file="longt5_finetune_vims_vmds_vlsp_large.gin" --gin_search_paths='./configs'
 ```
 
-## Inferring 
+# Inferring 
 * [Inferring (`t5x` tutorial)](usage/inferring.md)
 
-## Evaluation
+# Evaluation
 
 For `vims+vmds+vlsp` (test part) is as follows:
 ```
@@ -91,8 +91,9 @@ For `vlsp` (validation part) is as follows:
 ```
 python -m t5x.eval --gin_file="configs/longt5_infer_vlsp_validation_large.gin" --gin_search_paths='./configs'
 ```
-## Citation
-```
+
+# References
+```bibtex
 @inproceedings{rusnachenko2023pretraining,
     title = "Pre-training {LongT5} for Vietnamese Mass-Media Multi-document Summarization Task",
     author = "Rusnachenko, Nicolay and Le, The Anh and Nguyen, Ngoc Diep",
