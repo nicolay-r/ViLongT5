@@ -1,6 +1,7 @@
-# ViLongT5
+# ViLongT5 • [![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://x.com/nicolayr_/status/1855348255153861026)
 ![](https://img.shields.io/badge/Python-3.8+-lightgreen.svg)
 [![PRs welcome!](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://x.com/nicolayr_/status/1855348255153861026)
 
 A pretrained [Transformer-based encoder-decoder model](https://arxiv.org/pdf/2112.07916.pdf) for the
 multi-document text-summarization
