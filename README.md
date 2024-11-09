@@ -16,7 +16,7 @@ We benchmark `ViLongT5` on multidocument text-summarization tasks,
 Abstractive Text Summarization and Named Entity Recognition.
 All the experiments are shown in our paper
 **[Pre-training LongT5 for Vietnamese Mass-Media
-Multi-document Summarization Task](https://nicolay-r.github.io/website/data/preprint-AINL_2023_longt5_summarization.pdf)**
+Multi-document Summarization Task](https://link.springer.com/article/10.1007/s10958-024-07435-z)**
 
 
 # Pretrained Models
